@@ -1,8 +1,11 @@
 {
+  "engines": {
+    "node": "18.x"
+  },
   "name": "Karam",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build"
+    "start": "node server.js"
   },
   "dependencies": {
     "fastify": "^4.21.0",
