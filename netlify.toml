@@ -1,6 +1,3 @@
 [build]
-  command = "node build"
-  commandOrigin = "config"
-  environment = { DEBUG = "true" }
-  publish = "/opt/build/repo/public"
-  publishOrigin = "config"
+command = "npm start"
+publish = "/opt/build/repo/public"

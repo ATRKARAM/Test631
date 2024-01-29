@@ -1,17 +1,3 @@
-{
-  "engines": {
-    "node": "18.x"
-  },
-  "name": "Karam",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "fastify": "^4.21.0",
-    "handlebars": "^4.7.8",
-    "@fastify/formbody": "^7.4.0",
-    "@fastify/static": "^6.10.2",
-    "@fastify/view": "^8.0.0"
-  }
+"scripts": {
+  "start": "node server.js"
 }
