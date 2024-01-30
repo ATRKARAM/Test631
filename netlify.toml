@@ -3,6 +3,3 @@
   publish = "/opt/build/repo/public"
   functions = "functions"
   runtime = "python-3.10"
-
-[dev]
-  command = "python app.py"
