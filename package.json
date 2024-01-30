@@ -1,12 +1,17 @@
 {
-  "name": "your-app",
+  "name": "test631",
   "version": "1.0.0",
+  "description": "Test",
+  "main": "main.py",
   "scripts": {
-    "build": "npm install --save-dev webpack webpack-cli && npm install --save-dev babel-loader && webpack --config webpack.config.js",
-    "start": "node run_server.js"
+    "start": "python main.py"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "fastify": "^3.20.0"
+    "Flask": ">=2.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "python": ">=3.10",
+    "node": ">=20.0.0"
   }
 }
