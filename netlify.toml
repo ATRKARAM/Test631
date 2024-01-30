@@ -1,6 +1,6 @@
 [build]
-  command = "pip install -r requirements.txt && python app.py"
-  publish = "public"  # Adjust if your Flask app generates static files to a different directory
+  command = "npm install && npm run build"
+  publish = "/opt/build/repo/public"
 
 [dev]
   command = "python app.py"

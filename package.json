@@ -9,7 +9,9 @@
   "dependencies": {
     "Flask": ">=2.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-loader": "^8.2.3"
+  },
   "engines": {
     "python": ">=3.10",
     "node": ">=20.0.0"
