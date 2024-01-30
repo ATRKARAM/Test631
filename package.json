@@ -1,8 +1,12 @@
-"scripts": {
-  "build": "npm run build",
-  "start": "node server.js"
-}
-"dependencies": {
-  "express": "^4.17.1",
-  "fastify": "^3.20.0"
+{
+  "name": "your-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node run_server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^3.20.0"
+  }
 }
