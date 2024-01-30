@@ -2,7 +2,7 @@
   "name": "your-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm install --save-dev webpack webpack-cli && webpack --config webpack.config.js",
+    "build": "npm install --save-dev webpack webpack-cli && npm install --save-dev babel-loader && webpack --config webpack.config.js",
     "start": "node run_server.js"
   },
   "dependencies": {
