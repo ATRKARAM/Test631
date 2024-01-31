@@ -1,17 +1,4 @@
 {
-  "name": "test631",
-  "version": "1.0.0",
-  "description": "Test",
-  "main": "main.py",
-  "scripts": {
-    "start": "python main.py"
-  },
-  "dependencies": {
-    "Flask": ">=2.0.1"
-  },
-  "devDependencies": {
-    "babel-loader": "^8.2.3"
-  },
   "engines": {
     "python": ">=3.10",
     "node": ">=20.0.0"
