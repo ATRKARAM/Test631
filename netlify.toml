@@ -1,6 +1,3 @@
 [build]
-  command = "npm install && npm run build"
+  command = "python-3.10 -m npm install && python-3.10 -m npm run build"
   publish = "opt/build/repo/public"
-
-[functions]
-  directory = "functions"
