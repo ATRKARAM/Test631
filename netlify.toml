@@ -1,5 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = "/opt/build/repo/public"
-  functions = "functions"
-  runtime = "python-3.10"
+  publish = "opt/build/repo/public"
+
+[functions]
+  directory = "functions"
